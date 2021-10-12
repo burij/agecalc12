@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'ai/style.css' %}">
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+  <div class="description">
+The appropriateness inteligence wasn't able to calculate the age span of your potential sexual partners. Probably you didn't input a valid age. 
+  <a href="{% url 'ai' %}" class=launchbutton>Try again</a>
+  </div>
+
+</body>
+</html>
